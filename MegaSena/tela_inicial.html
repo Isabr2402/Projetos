@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="tela_inicial.css" rel="stylesheet">
+        <title>Mega Sena</title>
+        <script src="tela_inicial.js"></script>
+    </head>
+    <body>
+        <center>
+    
+            <h1>Mega Sena</h1>
+
+            <fieldset id="meh">
+                <div id="escolhas">
+                    <p>Quantidade de jogos: <input type="text" id="qjog" value="1">
+                    <p>Quantidade de números por jogo: 
+                    <select type="text" id="qnum">
+                    <option value= "6"> 6</option>
+                    <option value= "7"> 7</option>
+                    <option value= "8"> 8</option>
+                    <option value= "9"> 9</option>
+                    <option value="10">10</option>
+                    </select>
+                    </p>
+                </div>
+            </fieldset>
+
+            </br>
+
+            <fieldset>
+                <input type="button" id="button" value="Gerar valores" onclick=megaSena()>
+                <input type="button" id="clear" value="Limpar" onclick=resetar()>
+                </br></br>
+                <div id="ext"></div> 
+            </fieldset>
+
+        </center>
+    </body>
+</html>
